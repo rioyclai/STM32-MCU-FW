@@ -59,6 +59,10 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define B1_Pin GPIO_PIN_13
 #define B1_GPIO_Port GPIOC
+#define Relay_2_Pin GPIO_PIN_0
+#define Relay_2_GPIO_Port GPIOF
+#define Relay_3_Pin GPIO_PIN_1
+#define Relay_3_GPIO_Port GPIOF
 #define MCO_Pin GPIO_PIN_0
 #define MCO_GPIO_Port GPIOH
 #define LED_GREEN_Pin GPIO_PIN_0
@@ -81,6 +85,10 @@ void Error_Handler(void);
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
 #define SWCLK_GPIO_Port GPIOA
+#define Relay_0_Pin GPIO_PIN_0
+#define Relay_0_GPIO_Port GPIOD
+#define Relay_1_Pin GPIO_PIN_1
+#define Relay_1_GPIO_Port GPIOD
 #define SWO_Pin GPIO_PIN_3
 #define SWO_GPIO_Port GPIOB
 #define LED_YELLOW_Pin GPIO_PIN_1
